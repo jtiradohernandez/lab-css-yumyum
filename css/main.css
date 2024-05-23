@@ -20,6 +20,10 @@ h2 {
   font-family: "Intro";
 }
 
+h3{
+    font-family: "Lato";
+}
+
 p {
   font-family: "Lato";
 }
@@ -34,7 +38,7 @@ nav {
   display: flex;
   width: 100%;
   height: 300px;
-  padding: 100px 55px;
+  padding: 70px 55px;
   justify-content: space-between;
   z-index: 1000;
 }
@@ -48,9 +52,6 @@ nav img{
 .header-link{
     display: flex;
     gap:30px
-}
-
-.masthead {
 }
 
 .masthead h1 {
@@ -93,7 +94,7 @@ nav img{
 }
 
 input[type=text]{
-    text-align: center;
+    padding-left: 200px;
     width: 90vw;
     height: 200px;
     justify-items: center;
@@ -113,11 +114,65 @@ input[name=address]{
 }
 
 input[name=foodtype]{
+    background-image: url(../images/bbq.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: 80px;
+    background-position-y: 75px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px
 }
 
 
-input[type=submit]{
-    background-color: var(--orange-color)
+button{
+	background-color: var(--orange-color);
+	border: none;
+	font-size: 2em;
+	padding: 1em;
+	text-transform: uppercase;
+	font-family: 'Intro';
+	font-weight: 600;
+	color: var(--white-color);
+	border-radius: 0.5em;
+	margin-top: 2em;
+    margin-bottom: 2em;	
+}
+
+footer{
+    background-color: var(--beige-background-color);
+    padding: 90px 0px 220px 60px;
+}
+
+.copy{
+    font-size: 1.9em;
+}
+
+.copy{
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.copy h3{
+    font-size: 40px;
+    text-transform: none;
+    text-decoration: none;
+}
+.footer-links{
+    display: flex;
+    width: 100%;
+    gap: 100px;
+    margin-top:50px;
+}
+
+.footer-links a{
+    font-family: "Lato";
+    color: var(--text-color);
+    text-transform: none;
+    text-decoration: none;
+    font-size: 40px;
+
+}
+
+span{
+    color:#76cc51;
 }
